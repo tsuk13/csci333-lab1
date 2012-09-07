@@ -11,7 +11,6 @@ int main(){
 		if(f2 % 2 == 0)
 			sum += f2; //sums if fibonacci is even
 		int temp = f2;  //temporary variable to hold our current num
-		cout << f2 << "\n"; // print each fibonacci num starts with 2
 		f2 = f1 + f2; // get the new fibonacci num in f2
 		f1 = temp; // store the previous fibonacci
 	}
