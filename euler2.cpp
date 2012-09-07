@@ -6,7 +6,7 @@ int main(){
 	int sum = 0; //to keep track of sum
 	int f1 = 1; //previous fibonacci number
 	int f2 = 2; //current fibonacci number
-	int limit = 90; //number fibonacci numbers must be less than
+	int limit = 4000000; //number fibonacci numbers must be less than
 	for(;f2 < limit;){
 		if(f2 % 2 == 0)
 			sum += f2; //sums if fibonacci is even
