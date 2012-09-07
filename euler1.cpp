@@ -3,7 +3,7 @@
 using std::cout;
 
 int main(){
-	int n = 10; //how high we are going
+	int n = 1000; //how high we are going
 	int sum = 0; //keep running total
 	for(int i =1; i<n; ++i){
 		if(i % 3 == 0 || i % 5 == 0)
